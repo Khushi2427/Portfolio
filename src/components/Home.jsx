@@ -54,7 +54,7 @@ const Home = () => {
         </button>
         <Modal isOpen={isOpen} setIsOpen={setIsOpen} />  */}
         <a
-        href="https://drive.google.com/file/d/1kozG239H9Qgi8GhFcxlclb8q343FF9qf/view?usp=sharing" // Update this with the correct resume path
+        href="https://drive.google.com/file/d/1CvFd_O7sgH21mY5-j9GR2rr7Ujfw0lgj/view?usp=sharing" // Update this with the correct resume path
         download
         className="bg-blue-600 text-white px-4 py-2 text-lg rounded-lg font-semibold hover:bg-blue-700 transition"
       >
