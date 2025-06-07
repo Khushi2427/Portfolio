@@ -35,9 +35,9 @@ import tripguide from "./tripguide.png";
 import MR from "./MR.png";
 import face from "./face.png";
 import fraud from "./fraud.png";
-import logo2 from "./logo2.webp";
-import sk from "./sk.webp";
-import tf from "./tf.webp";
+import logo2 from "./logo2.png";
+import sk from "./sk.png";
+import tf from "./tf.png";
 
 export {
   logo,
