@@ -1,0 +1,42 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Soft cloud background -->
+  <path d="M120 60a30 30 0 1 1-60 0 30 30 0 0 0-60 0 30 30 0 0 1-60 0V0h120z" fill="#FFEBF2"/>
+  
+  <!-- Round face -->
+  <circle cx="60" cy="60" r="30" fill="#FFDBE7"/>
+  
+  <!-- Big sparkly eyes -->
+  <circle cx="45" cy="55" r="8" fill="white" stroke="#5D5FEF" stroke-width="2"/>
+  <circle cx="75" cy="55" r="8" fill="white" stroke="#5D5FEF" stroke-width="2"/>
+  <circle cx="45" cy="55" r="4" fill="#5D5FEF"/>
+  <circle cx="75" cy="55" r="4" fill="#5D5FEF"/>
+  <circle cx="44" cy="54" r="1" fill="white"/>
+  <circle cx="74" cy="54" r="1" fill="white"/>
+  
+  <!-- Blushing cheeks -->
+  <circle cx="40" cy="65" r="5" fill="#FFB6C1" opacity="0.6"/>
+  <circle cx="80" cy="65" r="5" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Cute smile -->
+  <path d="M50 70Q60 80 70 70" stroke="#FF6B8B" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Tiny nose -->
+  <circle cx="60" cy="65" r="2" fill="#FF8E9E"/>
+  
+  <!-- Space buns hairstyle -->
+  <circle cx="45" cy="35" r="10" fill="#FF9FCE"/>
+  <circle cx="75" cy="35" r="10" fill="#FF9FCE"/>
+  <path d="M35 45Q30 30 45 25Q60 20 75 25Q90 30 85 45" fill="#FF9FCE"/>
+  
+  <!-- Kawaii laptop -->
+  <rect x="30" y="80" width="60" height="25" rx="5" fill="#D6F3FF" stroke="#5D5FEF" stroke-width="2"/>
+  <rect x="35" y="85" width="50" height="15" rx="2" fill="white" stroke="#5D5FEF" stroke-width="1"/>
+  
+  <!-- Screen content: Heart code -->
+  <path d="M45 90L50 95L55 90" stroke="#FF6B8B" stroke-width="2" fill="none"/>
+  <text x="45" y="105" font-family="Arial" font-size="6" fill="#5D5FEF">♡ console.log("Hi!")</text>
+  
+  <!-- Tiny hands -->
+  <circle cx="35" cy="85" r="4" fill="#FFDBE7"/>
+  <circle cx="85" cy="85" r="4" fill="#FFDBE7"/>
+</svg>

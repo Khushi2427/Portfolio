@@ -25,10 +25,19 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import google from "./company/google.webp";
+import amazon from "./company/amazon.webp";
+import user from "./company/user.webp";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import MR from "./MR.png";
+import face from "./face.png";
+import fraud from "./fraud.png";
+import logo2 from "./logo2.webp";
+import sk from "./sk.webp";
+import tf from "./tf.webp";
 
 export {
   logo,
@@ -59,4 +68,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  google,
+  amazon,
+  user,
+  MR,
+  face,
+  fraud,
+  logo2,
+  sk,
+  tf
 };
