@@ -56,7 +56,7 @@ const Home = () => {
         <a
         href="https://drive.google.com/file/d/1CvFd_O7sgH21mY5-j9GR2rr7Ujfw0lgj/view?usp=sharing" // Update this with the correct resume path
         download
-        className="bg-blue-600 text-white px-4 py-2 text-lg rounded-lg font-semibold hover:bg-blue-700 transition"
+        className="bg-[#4595eb] py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group"
       >
         Resume
       </a>

@@ -26,7 +26,7 @@ const App = () => {
         
           <div className="relative self-center after:content-[''] after:absolute after:w-[2px] after:h-5 after:bg-[#444] after:left-1/2 after:-translate-x-1/2 after:top-[100px]">
             <button
-              className="bg-[#4595eb] text-white py-2 px-5 rounded font-extrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group mb-4 sm:mb-20"
+              className=" py-2 px-5 rounded font-ebg-[#4595eb] text-whitextrabold bg-gradient-to-l from-[#1595b6] to-[#1f2667e6] relative hover:scale-110 ease-in-out duration-100 group mb-4 sm:mb-20"
               onClick={scrollToWork} // Attach the onClick handler
             >
               Scroll Down
