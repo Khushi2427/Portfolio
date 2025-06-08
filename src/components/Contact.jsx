@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { ComputersCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import dev from "../assets/dev.png";
+import girl from "../assets/girl.png";
 
 const Contact = () => {
   const formRef = useRef();
@@ -129,7 +131,11 @@ const Contact = () => {
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         {/* <EarthCanvas/> */}
-        <ComputersCanvas/>
+        {/* <ComputersCanvas/> */}
+        <img
+          src={girl}
+          alt='Developer'
+          className='w-full h-full object-cover rounded-2xl'/>
       </motion.div>
     </div>
   );

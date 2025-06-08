@@ -27,7 +27,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="filter invert-[1] flex justify-between items-center text-3xl sm:pt-4">
+    <div className="filter z-20 invert-[1] flex justify-between items-center text-3xl sm:pt-4">
       <nav
         className={`${
           styles.paddingX

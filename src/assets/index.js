@@ -38,7 +38,8 @@ import fraud from "./fraud.png";
 import logo2 from "./logo2.png";
 import sk from "./sk.png";
 import tf from "./tf.png";
-
+import dev from "./dev.png";
+import girl from "./girl.png";
 export {
   logo,
   backend,
@@ -76,5 +77,7 @@ export {
   fraud,
   logo2,
   sk,
-  tf
+  tf,
+  dev,
+  girl
 };

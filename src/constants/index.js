@@ -31,7 +31,8 @@ import {
   fraud,
   logo2,
   sk,
-  tf
+  tf,
+  dev
 } from "../assets";
 
 
@@ -286,4 +287,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects , dev};
