@@ -35,7 +35,7 @@ import {
   dev
 } from "../assets";
 
-
+import anzo from "../assets/tech/anzo.png"
 
 export const navLinks = [
   {
@@ -288,6 +288,28 @@ const projects = [
     ],
     image:face,
     source_code_link: "https://face-matcher.vercel.app/",
+  },
+  {
+    name: "Anzo- Clone",
+    description:
+      "Recreated an award-winning Anzo Designer website clone with high-fidelity layouts, interactive animations, and seamless responsiveness, leveraging React, Tailwind CSS, and modern frontend best practices.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: anzo,
+    source_code_link: "https://anzo-clone-mocha.vercel.app/"
   },
 
 ];
