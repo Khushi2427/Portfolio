@@ -218,6 +218,31 @@ const testimonials = [
 
 const projects = [
   {
+    name: "DocXtract",
+    description:
+      "Developed an AI-powered invoice extraction system using OCR and LLaMA LLM to convert unstructured documents into structured JSON and CSV data. Built a React dashboard for uploading, previewing, and downloading data, with a secure backend API for validation and report generation.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Llama",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fraud,
+    source_code_link: "https://docxtract-three.vercel.app/",
+  },
+  {
     name: "Movie Recommendation System",
     description:
       "Developed an intelligent movie recommendation system using content-based filtering that analyzes user preferences and movie attributes to deliver hyper-personalized suggestions, significantly enhancing engagement and discovery.",
@@ -236,7 +261,7 @@ const projects = [
       },
     ],
     image: MR,
-    source_code_link: "https://github.com/Khushi2427/KG-movie-recommender/tree/master",
+    source_code_link: "https://movie-recommender-kg.onrender.com",
   },
   {
     name: "Bollywood Face Matcher",
@@ -262,29 +287,9 @@ const projects = [
 
     ],
     image:face,
-    source_code_link: "https://github.com/Khushi2427/FaceMatcher/tree/master",
+    source_code_link: "https://face-matcher.vercel.app/",
   },
-  {
-    name: "Fraud Detection System",
-    description:
-      "Developed a high-precision fraud detection system using machine learning, with Random Forest as the core algorithm to analyze transaction patterns. The model achieves 95% accuracy in real-time prediction by effectively learning from imbalanced datasets. This solution reduces manual review workload while maintaining robust security against evolving fraudulent tactics.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "flask",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: fraud,
-    source_code_link: "https://github.com/Khushi2427",
-  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects , dev};
