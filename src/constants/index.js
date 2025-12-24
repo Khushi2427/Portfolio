@@ -32,10 +32,13 @@ import {
   logo2,
   sk,
   tf,
-  dev
+  dev,
+  
 } from "../assets";
-
+import k2 from "../assets/k2.png"
 import anzo from "../assets/tech/anzo.png"
+import echocare from "../assets/echocare.png"
+import docxtract from "../assets/docxtract.png"
 
 export const navLinks = [
   {
@@ -136,7 +139,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Trainee Software Engineer",
+    title: "Scholar",
     company_name: "Amazon Future Engineers Bootcamp",
     icon: amazon,
     iconBg: "#383E56",
@@ -149,16 +152,16 @@ const experiences = [
     ],
   },
   {
-    title: "Trainee Software Engineer",
-    company_name: "Google Developer Students Club",
-    icon: google,
+    title: "Machine Learning Intern",
+    company_name: "Krishi Kutumb",
+    icon: k2,
     iconBg: "#E6DEDD",
-    date: "Feb 2025 - Present",
+    date: "June 2025 - November 2025",
     points: [
-"Contributing to community-driven technical projects and collaborating with fellow students to build impactful solutions using Google technologies.",
-"Participating in workshops, hackathons, and coding events to enhance development skills in areas like web, mobile, and cloud computing.",
-"Learning and implementing modern technologies such as Firebase, Flutter, TensorFlow, and Google Cloud through hands-on sessions.",
-"Engaging in peer learning, mentoring, and networking to grow as a developer and build a strong tech community on campus.",
+"Developing and deploying machine learning models to analyze agricultural data and support smart farming solutions for improved crop productivity.",
+"Working with real-world datasets involving soil health, crop conditions, and weather patterns to build predictive and classification models.",
+"Implementing data preprocessing, feature engineering, and model evaluation techniques to improve accuracy and reliability of ML solutions.",
+"Collaborating with domain experts and developers to translate agricultural challenges into practical, AI-driven applications for farmers.",
     ],
   },
   // {
@@ -217,6 +220,32 @@ const testimonials = [
 ];
 
 const projects = [
+
+  {
+    name: "EchoCare",
+    description:
+      "Developed a full-stack mental wellness platform integrating an AI chatbot, community engagement system, and professional counselling services. Built secure modules for session booking, resource management, and user interactions, along with an admin dashboard for monitoring users, managing content, and overseeing platform operations.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Llama",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: echocare,
+    source_code_link: "https://echo-care-omega.vercel.app/",
+  },
   {
     name: "DocXtract",
     description:
@@ -239,7 +268,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: fraud,
+    image: docxtract,
     source_code_link: "https://docxtract-three.vercel.app/",
   },
   {
